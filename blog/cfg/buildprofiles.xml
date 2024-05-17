@@ -6,13 +6,6 @@
     <build-profile instance="hi">
         <variables></variables>
     </build-profile>
-    <build-profile instance="si">
-        <variables></variables>
-    </build-profile>
-    <build-profile instance="blog">
-        <variables>
-            <noindex-content>false</noindex-content>
-        </variables>
-    </build-profile>
+
 
 </buildprofiles>
