@@ -10,17 +10,58 @@
         <toc-element topic="Play-with-semantic-attributes.md"/>
     </toc-element>
     <toc-element topic="greeting.md"/>
-    <toc-element topic="etc.md"/>
-    <toc-element topic="DB.md"/>
+    <toc-element topic="DB.md">
+        <toc-element topic="??-:-DB-의-인덱스-가-뭔가요?-.md"/>
+        <toc-element topic="이벤트-페이지-그리고-데드락..-그리고-FK-로-인한-공유-잠금..-그리고-비관적-잠금..-.md"/>
+        <toc-element topic="트랜잭션의-격리-수준-이라는-등가교환-.md"/>
+        <toc-element topic="Mysql(Maraidb)-실행-계획-살펴보기-.md">
+        </toc-element>
+    </toc-element>
     <toc-element topic="Language.md">
+        <toc-element topic="Java-의-Generic-Type-Erasure-.md"/>
+        <toc-element topic="박사-학위-논문인-가비지-컬렉션-.md"/>
         <toc-element topic="c-와-java-에서-call-by-reference는-없다.md"/>
     </toc-element>
-    <toc-element topic="SpringBoot.md"/>
-    <toc-element topic="Cipher.md"/>
-    <toc-element topic="Add-semantic-elements-to-Markdown.md"/>
+    <toc-element topic="SpringBoot.md">
+        <toc-element topic="그놈의-REST-한-API-.md"/>
+        <toc-element topic="QueryDSL-JPA에서-인라인뷰를-써야-한다면-도망치자-.md"/>
+        <toc-element topic="Spring-Boot-및-DB-모니터링-시스템-구축-.md"/>
+        <toc-element topic="Swagger-fox-+-Spring-Boot-Actuator-=-boom!-.md"/>
+        <toc-element topic="db-column명은-snake_case-가-최고다-.md"/>
+        <toc-element topic="QueryDSL에서-SubQuery-에는-limit-를-사용-할-수-없다.-.md"/>
+        <toc-element topic="JpaRepository-가-아닌-Repository를-상속-받아-CQRS-로-분리하기-.md"/>
+        <toc-element topic="@RequestBody-동작-이해하기-.md"/>
+        <toc-element topic="API-Controller-주변-청소하기-.md"/>
+        <toc-element topic="@Transactional(readOnly-=-true)-는-Flush-가-동작안할꺼라-믿었다-.md"/>
+    </toc-element>
+    <toc-element topic="Cipher.md">
+        <toc-element topic="영지식-증명-(Zero-Knowledge-Proof)-가-무엇일까-.md"/>
+        <toc-element topic="ECC-와-PBC-가-뭘까-.md"/>
+        <toc-element topic="CL-Signature-.md">
+        </toc-element>
+        <toc-element topic="단방향-해시의-문제-와-PBKDF2-.md"/>
+        <toc-element topic="그놈의-ECIES-.md"/>
+        <toc-element topic="RVA-to-RAW-쉽게-계산하기-.md"/>
+        <toc-element topic="RSA는-왜-공개키부터-만들까?-.md"/>
+    </toc-element>
+    <toc-element topic="etc.md">
+        <toc-element topic="HTTPCP(Hyper-Text-Coffee-Pot-Control-Protocol)-.md"/>
+        <toc-element topic="Git-Hook-을-멋들어지게-즐겨보기-.md"/>
+        <toc-element topic="브라우저-에서-내-도메인을-검색하면-일어나는일-.md"/>
+        <toc-element topic="GitHub-Actions-사용하여-CI-CD-적용해보기-.md"/>
+        <toc-element topic="블록체인-확장성에-대한-문제-와-Rollup-.md"/>
+        <toc-element topic="AWS-서버-아키텍처-구축하기-.md"/>
+        <toc-element topic="[보이지-않는-동료]-목적을-통일시키고-인정을-기다리며-.md"/>
+        <toc-element topic="깃허브-잔디-조작해서-아스키-아트-그리기-.md"/>
+        <toc-element topic="Custom-GitHub-Action-으로-Chat-GPT-코드리뷰-제작하기-.md"/>
+        <toc-element topic="양말의-짝을-찾을수있는-효율적인-알고리즘-.md"/>
+        <toc-element topic="Clean-Architecture-for-Android-.md"/>
+    </toc-element>
     <toc-element topic="Convert-Markdown-to-XML.md"/>
+    <toc-element topic="Add-semantic-elements-to-Markdown.md"/>
     <toc-element topic="Quickly-add-images-links-and-tables.md"/>
     <toc-element topic="Add-Mermaid-diagrams.md"/>
     <toc-element topic="Add-math-formulas.md"/>
     <toc-element topic="Writerside로-blog-작성하기.md"/>
+
 </instance-profile>

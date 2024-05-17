@@ -1,3 +1,3 @@
-# SpringBoot
+# Server
 
 Start typing here...
