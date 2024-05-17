@@ -10,7 +10,7 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: 'blog/blog'
+  INSTANCE: 'blog/hi'
   ARTIFACT: 'webHelpHI2-all.zip'
   DOCKER_VERSION: '241.15989'
 
