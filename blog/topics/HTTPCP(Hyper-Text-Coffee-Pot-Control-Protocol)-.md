@@ -77,7 +77,7 @@ Python은 3.9 버전부터 지원한다
             | "koffee"       ; Bengali
             | "kahva"        ; Bosnian
             | "kafe"         ; Bulgarian, Czech
-            | "caf%C3%E8"    ; Catalan, French, Galician
+            | "cafC3E8"    ; Catalan, French, Galician
             | "咖啡"          ; Chinese
             | "kava"         ; Croatian
             | "kC3A1va     ; Czech
