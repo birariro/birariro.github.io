@@ -4,7 +4,6 @@
 ![](7ec1da25-8218-4bb9-9cfe-357d8b6d5056.png)
 
 ****Spring Boot Actuator****
-============================
 
 **Spring Boot Actuator** 는 다양한 엔드포인트를 통해 모니터링을 지원하는 라이브러리.
 
@@ -93,7 +92,7 @@ exporter 에서 사용할 Mysql 계정을 생성해준다.
     mysql> CREATE USER 'prometheus-exporter'@'%' IDENTIFIED BY '0000' WITH MAX_USER_CONNECTIONS 3;
     mysql> GRANT PROCESS, REPLICATION CLIENT, SELECT ON *.* TO 'prometheus-exporter'@'%';
 
-### docker 설정
+### mysqld-exporter docker 설정
 
     vk-main-db:
         container_name: vk-db
@@ -122,7 +121,6 @@ exporter 에서 사용할 Mysql 계정을 생성해준다.
 수집할 DB의 정보를 설정한다.
 
 **Prometheus**
-==============
 
 Prometheus 는 매트릭을 수집하고 저장하며 이를 모니터링 혹은 경고 를 할수있게 도와주는 오픈소스이다
 
@@ -150,7 +148,7 @@ yml 생성
 *   **scrape\_configs.metric\_path** : 메트릭 정보의 경로를 명시한다. Actuator를 사용하였으므로, 위와 같이 작성한다.
 *   **scrape\_configs.static\_configs.targets** : 메트릭을 수집할 호스트 정보를 명시한다. 만약 스프링부트 애플리케이션이 **localhost:8080** 에서 돌아가고 있다면, 그것을 적어주면 된다.
 
-### docker 설정
+### Prometheus docker 설정
 
     vk-prometheus:
       container_name: vk-prometheus
@@ -167,7 +165,6 @@ yml 생성
 **prometheus** 의 대시보드를 확인할수있다.
 
 ****Grafana****
-===============
 
 시각화 및 메트릭 분석 도구이다
 

@@ -154,7 +154,7 @@ commit 작업을 중지시키면서 어떻게 메시지를 작성해야하는지
 
 ### prepare-commit-msg 로 커밋메시지에 footer 자동 추가
 
-feature 브랜치 네이밍을  **feature/<ticket-number>/<branch-name>** 으로 네이밍하는경우
+feature 브랜치 네이밍을  ```feature/<ticket-number>/<branch-name>``` 으로 네이밍하는경우
 
 중간에 있는 이름을 파싱해서
 

@@ -86,11 +86,11 @@ const, eq-ref, ref, range, index, all 순으로 뒤로 갈수록 안 좋은 값�
 
 >  💡 const, eq\_ref, ref는 좋은 접근 방식이니 ref를 const로 바꾸려는 노력을 하지 않아도 괜찮다.
 
-#### const
+#### Type/const
 
 *   PK나 Unique key를 사용했기에 조건을 만족하는 레코드가 하나인경우이다.
 
-#### eq-ref
+#### Type/eq-ref
 
 *   여러 테이블이 조인되는 쿼리에서 표기
 *   PK나 Unique key 인덱스를 사용하는 조인으로 const를 제외한 가장 좋은 형태
@@ -101,13 +101,13 @@ const, eq-ref, ref, range, index, all 순으로 뒤로 갈수록 안 좋은 값�
 
 ![](e41fd75e-d30e-44b5-ade1-385405f185cc.png)
 
-#### ref
+#### Type/ref
 
 *   인덱스의 동등(Equal) 검색에 표기
 *   PK나 Unique key 인덱스를 사용하지 않는 조인에도 표기됨
 *   조인에 표기 시 유니크하지 않은 값으로 조인하기에 여러 행을 패치할 가능성이 높음
 
-#### range
+#### Type/range
 
 *   인덱스 레인지 스캔의 접근 방식
 *   인덱스를 하나의 값이 아닌 범위로 검색하는 경우 발생(<, >, is null, between, in, like 등)
@@ -125,7 +125,7 @@ const, eq-ref, ref, range, index, all 순으로 뒤로 갈수록 안 좋은 값�
 
 ![](6eb5a5cb-f864-4175-99a8-0c2990e7ed51.png)
 
-#### all
+#### Type/all
 
 *   table를 처음부터 끝까지 탐색하는 테이블 풀 스켄이다
 *   가장 비효율 적인 방법이다.

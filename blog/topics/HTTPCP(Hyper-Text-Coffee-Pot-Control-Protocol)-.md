@@ -80,7 +80,7 @@ Python은 3.9 버전부터 지원한다
             | "caf%C3%E8"    ; Catalan, French, Galician
             | "咖啡"          ; Chinese
             | "kava"         ; Croatian
-            | "k%C3%A1va     ; Czech
+            | "kC3A1va     ; Czech
             | "kaffe"        ; Danish, Norwegian, Swedish
             | "coffee"       ; English
             | "kafo"         ; Esperanto

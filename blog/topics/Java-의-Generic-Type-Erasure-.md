@@ -15,11 +15,11 @@
 
 unbiunded type 은 object로 
 
-즉 <?> , <T>와 같은 형태는 object로 교체하고
+즉 ```<?>``` , ```<T>```와 같은 형태는 object로 교체하고
 
 bounded type 은 bound type로
 
-즉 <T extends String>는 String로 교체한다.
+즉 ```<T extends String>```는 String로 교체한다.
 
 ### unbiunded type의 Type Erasure 
 
@@ -113,7 +113,7 @@ object를 지정한 타입으로 변환하는 다운캐스팅을 해야 한다.
     String oTos = (String)method();
 
 ### bounded type의 Type Erasure 
-
+```Java
     public class BoundedClass {
     
       public static <T extends String> T method(T t) { return t; }
@@ -131,13 +131,13 @@ object를 지정한 타입으로 변환하는 다운캐스팅을 해야 한다.
     }
     
     > type = java.lang.String
-
+```
 bounded type을 사용하는 경우를 보면
 
 type의 제한을 걸어두었기 때문에 bound type로 변환된 모습을 볼 수 있다.
 
 이러한 Type Erasure로 인해 아래와 같은 일도 가능하게 된다.
-
+```Java
     @Test
     @DisplayName("String list 에 Integer 추가 하기")
     public void test() {
@@ -152,8 +152,9 @@ type의 제한을 걸어두었기 때문에 bound type로 변환된 모습을 �
     }
     
     > strings = [first String, 1000]
+```
 
-런타임에서는 List <String>과 List <Interer> 은 둘 다 List객체일 뿐이다.
+런타임에서는 ```List <String>```과 ```List <Interer>``` 은 둘 다 List객체일 뿐이다.
 
 자바는 사실 동적 타이핑 언어가 아니었을까?
 
